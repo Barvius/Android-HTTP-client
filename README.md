@@ -14,7 +14,7 @@ LoadThread lt = new LoadThread();
 String GETPayload = lt.GET("http://localhost", 
     new String[]{"param1","value1"}, new String[]{"param2","value2"});
     
-String POSTPayload = lt.GET("http://localhost", 
+String POSTPayload = lt.POST("http://localhost", 
     new String[]{"param1","value1"}, new String[]{"param2","value2"})
 ```
 
