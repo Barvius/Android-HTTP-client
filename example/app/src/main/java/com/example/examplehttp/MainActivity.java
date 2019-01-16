@@ -17,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = findViewById(R.id.myText);
 
-        textView.setText(lt.GET("http://192.168.1.1"));
+        textView.setText(lt.GET("http://localhost"));
     }
 }
